@@ -6,14 +6,13 @@ import javax.swing.*;
 import java.awt.*;
 
 
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<String> codigos = new ArrayList<>();
         Gson gson = new Gson();
         codigos.add("0123456789");
 
-        JFrame frame = new JFrame("Servidor");
+        JFrame frame = new JFrame("Servidor de Acesso - AT JAVA");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600,400);
         frame.setLocationRelativeTo(null);
